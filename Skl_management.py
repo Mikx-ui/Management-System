@@ -47,7 +47,6 @@ class Student:
         report += f"Overall Average: {self.overall_average():.2f}\n"
         report += "Status: Passed \n" if self.passed() else "Status: Failed \n"
         return report
-
 students = {}
 
 def add_student():
@@ -109,9 +108,9 @@ def menu():
         elif choice == "4":
             view_all_students()
         elif choice == "5":
-            print("Exiting program. Goodbye!")
+            print("Exiting program. Cya!")
             break
         else:
-            print("Invalid choice. Try again.")
+            print("Hmmm, try again.")
 
 menu()
